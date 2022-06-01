@@ -1,3 +1,7 @@
-now dns add pko.ch bolinhas A 198.98.53.214
-now dns add pko.ch bolinhas AAAA 2605:6400:1:fed5:22:193b:2fdc:b3c3
-now dns add pko.ch '@' TXT 'keybase-site-verification=RwmNVmbD0xzmAzJCUoRw-gusgJYDWsLo-y0jZRyX1NI'
+#!/bin/bash -e
+vercel dns add pko.ch apr AAAA "$(curl ipv6.icanhazip.com)"
+vercel dns add pko.ch apr A "$(curl ipv4.icanhazip.com)"
+vercel dns add pko.ch '@' TXT 'forward-email-site-verification=2SXtiwXjmc'
+vercel dns add pko.ch '@' MX 'mx2.forwardemail.net.' 10
+vercel dns add pko.ch '@' MX 'mx1.forwardemail.net.' 10
+vercel dns add pko.ch '@' TXT 'keybase-site-verification=RwmNVmbD0xzmAzJCUoRw-gusgJYDWsLo-y0jZRyX1NI'
