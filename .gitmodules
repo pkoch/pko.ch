@@ -1,0 +1,4 @@
+[submodule "talks/2022-06-08-Choreography-and-Diligence"]
+	path = talks/2022-06-08-Choreography-and-Diligence
+	url = https://github.com/pkoch/2022-06-08-Choreography-and-Diligence.git
+	branch = master
