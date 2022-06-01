@@ -1,0 +1,18 @@
+{
+  "name": "pko.ch",
+  "author": "Paulo Köch <hi@pko.ch>",
+  "license": "ISC",
+  "version": "1.0.0",
+  "description": "https://pko.ch/",
+  "homepage": "https://github.com/pkoch/pko.ch#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pkoch/pko.ch.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pkoch/pko.ch/issues"
+  },
+  "devDependencies": {
+    "vercel": "^24.2.5"
+  }
+}
