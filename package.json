@@ -12,10 +12,10 @@
   "bugs": {
     "url": "https://github.com/pkoch/pko.ch/issues"
   },
-  "scripts":{
+  "scripts": {
     "build": "git submodule update --init"
   },
   "devDependencies": {
-    "vercel": "^24.2.5"
+    "vercel": "^25.0.0"
   }
 }
