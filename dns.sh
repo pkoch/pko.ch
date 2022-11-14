@@ -1,4 +1,8 @@
 #!/bin/bash -e
+if ! type vercel >/dev/null; then
+    echo "Install vercel first: https://vercel.com/docs/cli" >&2
+    exit 1
+fi
 vercel dns add pko.ch apr AAAA "$(curl ipv6.icanhazip.com)"
 vercel dns add pko.ch apr A "$(curl ipv4.icanhazip.com)"
 vercel dns add pko.ch '@' TXT 'forward-email-site-verification=2SXtiwXjmc'
