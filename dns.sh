@@ -9,3 +9,4 @@ vercel dns add pko.ch '@' TXT 'forward-email-site-verification=2SXtiwXjmc'
 vercel dns add pko.ch '@' MX 'mx2.forwardemail.net.' 10
 vercel dns add pko.ch '@' MX 'mx1.forwardemail.net.' 10
 vercel dns add pko.ch '@' TXT 'keybase-site-verification=RwmNVmbD0xzmAzJCUoRw-gusgJYDWsLo-y0jZRyX1NI'
+vercel dns add pko.ch _ens TXT 'a=0xFbc53B2C5516e8d0765C9BC9711DbD27aab38F40'
