@@ -16,6 +16,6 @@
     "build": "git submodule update --init"
   },
   "devDependencies": {
-    "vercel": "^25.0.0"
+    "vercel": "^28.5.6"
   }
 }
