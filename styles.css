@@ -1,0 +1,36 @@
+:root {
+	/* Light mode (default) variables */
+	--bg-color: #ffffff;
+	--text-color: #121212;
+	--link-color: #0066cc;
+	--link-visited: #551a8b;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		/* Auto-switch to dark mode based on system preference */
+		--bg-color: #121212;
+		--text-color: #f0f0f0;
+		--link-color: #88bbff;
+		--link-visited: #bb88ff;
+	}
+}
+
+body {
+	background-color: var(--bg-color);
+	color: var(--text-color);
+	font-family: sans-serif;
+	line-height: 1.6;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a {
+	color: var(--link-color);
+}
+
+a:visited {
+	color: var(--link-visited);
+}

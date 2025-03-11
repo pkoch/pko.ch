@@ -1,26 +1,41 @@
-<!DOCTYPE html><html><header>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
   <title>pko.ch</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="pgpkey" href="/gpg">
-</header><body>
+  <link rel="stylesheet" href="./styles.css">
+</head>
 
-<h1>pko.ch</h1>
+<body>
+  <header role="banner">
+    <h1>pko.ch</h1>
+  </header>
 
-<p>
-  Hi, I'm Paulo Koch. I'm a software engineer, and I live in Porto, Portugal.
-  Sometimes, I do some <a href="./talks/">talks</a>.
-</p>
+  <main role="main">
+    <p>
+      Hi, I'm Paulo Koch. I'm a software engineer, and I live in Porto, Portugal.
+      Sometimes, I do some <a href="./talks/" aria-label="My talks">talks</a>.
+    </p>
 
-<p>For my professional info, check out <a href="https://github.com/pkoch/cv">my CV</a>.</p>
+    <p>For my professional info, check out <a href="https://github.com/pkoch/cv">my CV</a>.</p>
 
-<h3>Me on the web</h3>
-<ul>
-  <li><a href="mailto:hi@pko.ch" rel="me">hi@pko.ch</a></li>
-  <li><a href="https://mastodon.social/@pkoch" rel="me">Mastodon</a></li>
-  <li><a href="https://github.com/pkoch" rel="me">GitHub</a></li>
-  <li><a href="https://keyoxide.org/7CF89ADCDA4CB27D18A943E4F6B4B93498A0C85D" rel="me">Keyoxide</a></li>
-  <li><a href="https://app.ens.domains/pko.ch" rel="me">ENS</a></li>
-</ul>
+    <section>
+      <h2>Me on the web</h2>
+      <nav role="navigation" aria-label="Contact links">
+        <ul>
+          <li><a href="mailto:hi@pko.ch" rel="me">hi@pko.ch</a></li>
+          <li><a href="https://mastodon.social/@pkoch" rel="me">Mastodon</a></li>
+          <li><a href="https://github.com/pkoch" rel="me">GitHub</a></li>
+          <li><a href="https://keyoxide.org/7CF89ADCDA4CB27D18A943E4F6B4B93498A0C85D" rel="me">Keyoxide</a></li>
+          <li><a href="https://app.ens.domains/pko.ch" rel="me">ENS</a></li>
+        </ul>
+      </nav>
+    </section>
+  </main>
 
-</body></html>
+</body>
+
+</html>
