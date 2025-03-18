@@ -20,7 +20,7 @@
     "build": "git submodule update --init"
   },
   "devDependencies": {
-    "vercel": "^31.4.0"
+    "vercel": "^41.4.1"
   },
   "packageManager": "pnpm@9.15.1+sha256.9e534e70afef06374f6126b44bda5760947135ce16a30aef1010e965fb7e3e3e"
 }
