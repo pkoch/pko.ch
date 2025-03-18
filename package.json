@@ -4,7 +4,10 @@
   "license": "ISC",
   "version": "1.0.0",
   "description": "https://pko.ch/",
-  "engines": {"node":"^20.9","pnpm":"^9.14"},
+  "engines": {
+    "node": "^20.9",
+    "pnpm": "^9.14"
+  },
   "homepage": "https://github.com/pkoch/pko.ch#readme",
   "repository": {
     "type": "git",
